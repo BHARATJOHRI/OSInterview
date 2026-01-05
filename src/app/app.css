@@ -1,0 +1,42 @@
+.page-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  color: #1e1e1e;
+}
+
+.qa-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 10px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.qa-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 6px solid #4f46e5;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.qa-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.question {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1e1e1e;
+  margin-bottom: 10px;
+}
+
+.answer {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
