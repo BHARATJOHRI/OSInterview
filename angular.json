@@ -38,20 +38,20 @@
         },
         "serve": {
           "builder": "@angular/build:dev-server",
+          "defaultConfiguration": "development",
           "configurations": {
-            "production": {
-              "buildTarget": "OSInterview:build:production"
-            },
             "development": {
               "buildTarget": "OSInterview:build:development"
+            },
+            "production": {
+              "buildTarget": "OSInterview:build:production"
             }
-          },
-          "defaultConfiguration": "development"
+          }
         }
       }
     }
   },
   "cli": {
-    "analytics": "2cd70942-c557-4cae-bf86-99f6ad45b260"
+    "analytics": "4d8f74e3-37b0-424b-a356-fb1b97f21db0"
   }
 }
